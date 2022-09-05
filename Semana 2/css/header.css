@@ -3,6 +3,7 @@ header
     position: fixed;
     width: 1512px;
     height: 91px;
+    z-index: 1;
 }
 
 #headerTop
@@ -44,7 +45,7 @@ header
     box-sizing: border-box;
     height: 55px;
     width: 205px;
-    padding-top: 14px;
+    padding: 14px 0px;
     background: #373867;
     border: 0px;
 }
@@ -54,6 +55,7 @@ header
     padding-top: 14px;
     font-family: 'Roboto';
     font-style: normal;
+    text-decoration: none;
     font-weight: 400;
     font-size: 20px;
     color: #479679;

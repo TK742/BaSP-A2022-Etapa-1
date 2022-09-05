@@ -3,8 +3,6 @@ aside nav
     margin-top: 91px;
     position: fixed;
     float: left;
-    
-    position: fixed;
     width: 253px;
     height: 982px;
     background: rgba(55, 56, 103, 0.1);
@@ -46,25 +44,34 @@ aside p
 
 aside nav h2
 {
-    width: 50px;
+    width: 210px;
     height: 23px;
-    margin-left: 92px;
+    margin-left: 21.5px;
     margin-top: 17.51px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 19.3686px;
     line-height: 23px;
+    text-align: center;
     color: #373867;
 }
 
 .asideButton
 {
+    margin-left: 21.5px;
+    margin-top: 11px;
     width: 210px;
     height: 55px;
 }
 
 .asideButton li a
 {
-    color: #46A07B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.2704px;
+    line-height: 19px;
+    color: #46a07a;
+    text-decoration: none;
 }
