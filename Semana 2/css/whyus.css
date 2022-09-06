@@ -19,7 +19,10 @@
 
 .why-us-reason div
 {
+    position: relative;
     display: inline-block;
+    bottom: 60px;
+    left: 30px;
     width: 50%;
 }
 

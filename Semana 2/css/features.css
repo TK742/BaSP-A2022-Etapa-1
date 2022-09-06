@@ -14,6 +14,7 @@
     display: inline-block;
     margin-left: 244px;
     margin-top: 49px;
+    width: 252px;
 }
 
 .features-product h3
@@ -25,4 +26,5 @@
     line-height: 35px;
     text-align: center;
     color: #373867;
+    margin-bottom: 22px;
 }

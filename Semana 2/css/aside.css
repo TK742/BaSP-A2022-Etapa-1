@@ -63,6 +63,9 @@ aside nav h2
     margin-top: 11px;
     width: 210px;
     height: 55px;
+    border: 0px;
+    border-bottom: 1px solid #000000;
+    background: none;
 }
 
 .asideButton li a

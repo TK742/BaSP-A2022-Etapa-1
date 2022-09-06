@@ -1,7 +1,13 @@
-body
+html
 {
+    overflow-x: hidden;
     font-family: 'Roboto';
     font-style: normal;
+}
+
+body
+{
+    overflow-x: hidden;
 }
 
 main
@@ -14,6 +20,7 @@ main
 footer
 {
     width: 1259px;
+    height: 300px;
     padding-top: 155px;
     padding-left: 253px;
 }

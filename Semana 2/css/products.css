@@ -33,7 +33,7 @@
 #products li
 {
     margin-left: 80px;
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
 #products h2
@@ -42,6 +42,7 @@
     height: 36px;
     margin-left: 75px;
     margin-top: 164px;
+    margin-bottom: 40px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;

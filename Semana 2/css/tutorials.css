@@ -52,31 +52,35 @@
     color: #000000;
 }
 
-#tutorials li
+#tutorials ol
 {
-    display: inline-block;
-    width: 1000px;
-    margin-left: 105px;
+    list-style: decimal;
 }
 
-.videoTitle
+#tutorials li
 {
-    display: inline-block;
-    width: 70%;
+    display: list-item;
+    width: 1000px;
+    margin-left: 105px;
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    
     color: #000;
     text-align: start;
+}
+
+.videoTitle
+{
+    display: inline-block;
+    width: 90%;
 }
 
 .timeStamp
 {
     position: relative;
-    width: 30%;
+    width: 10%;
     display: inline-block;
     font-family: 'Inter';
     font-style: italic;
