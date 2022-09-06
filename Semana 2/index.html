@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="css/welcome.css">
         <link rel="stylesheet" href="css/products.css">
         <link rel="stylesheet" href="css/whyus.css">
+        <link rel="stylesheet" href="css/theform.css">
+        <link rel="stylesheet" href="css/our-story.css">
         <title>TrackGenix</title>
     </head>
     
@@ -94,53 +96,54 @@
                 <h2>Why should you use TrackGenix?</h2>
                 <article class="why-us-reason">
                     <img src="res/base-1.jpg" alt="person-and-clock">
-                    <h3>Productivity Boost</h3>
-                    <p>Be more productive using better Focus, Time Management, Organization and Efficiency.</p>
+                    <div>
+                        <h3>Productivity Boost</h3>
+                        <p>Be more productive using better Focus, Time Management, Organization and Efficiency.</p>
+                    </div>
                 </article>
     
                 <article class="why-us-reason">
                     <img src="res/base-2.jpg" alt="person-and-clock">
-                    <h3>Work Traceability</h3>
-                    <p>Keep track of specs, changes, requests, results, and versions.</p>
+                    <div>
+                        <h3>Work Traceability</h3>
+                        <p>Keep track of specs, changes, requests, results, and versions.</p>
+                    </div>
                 </article>
-    
+
                 <article class="why-us-reason">
                     <img src="res/base-3.jpg" alt="person-and-clock">
-                    <h3>Leadership and Team Management</h3>
-                    <p>Lead a group of people in accomplishing a task or common goal. Effective team management involves supporting, communicating with and uplifting team members so they perform to the best of their abilities and continue to grow as professionals.</p>
+                    <div>
+                        <h3>Leadership and Team Management</h3>
+                        <p>Lead a group of people in accomplishing a task or common goal. Effective team management involves supporting, communicating with and uplifting team members so they perform to the best of their abilities and continue to grow as professionals.</p>
+                    </div>
                 </article>
     
                 <article class="why-us-reason">
                     <img src="res/base-4.jpg" alt="person-and-clock">
-                    <h3>Decision Making</h3>
-                    <p>Make better decisions for your business</p>
+                    <div>
+                        <h3>Decision Making</h3>
+                        <p>Make better decisions for your business</p>
+                    </div>
                 </article>
             </section>
     
             <section id="inscription-form">
                 <h2>Inscription Form</h2>
                 <form action="">
-                    <label for="fname">Name</label>
-                    <input type="text" name="fname" id="fname">
+                    <input type="text" name="fname" id="fname" placeholder="Name">
+                    <input type="text" name="email" id="email" placeholder="Email">
     
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
-    
-                    <label for="contactArea">Contact Area</label>
                     <select name="contactArea" id="contactArea">
-                        <option value="none">- Choose Area -</option>
+                        <option value="none">- Contact Area -</option>
                         <option value="hhrr">HHRR</option>
                         <option value="it">IT</option>
                         <option value="marketing">Marketing</option>
                     </select>
     
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Message..."></textarea>
     
-                    <label class="switch"> Send copy to myself <input type="checkbox"></label>
-                    <label class="switch"> I am Human and I agree to T&C <input type="checkbox"></label>
-    
-                    <input type="submit" value="Submit">
+                    <label class="switch"><input type="checkbox"><span class="slider round">Send copy to myself</span></label>
+                    <label class="switch"><input type="checkbox"><span class="slider round">I am Human and I agree to T&C</span></label>   
                 </form>
             </section>
             
@@ -148,19 +151,21 @@
                 <h2>Our Story</h2>
                 <img src="res/rr-logo.png" alt="rr-logo">
     
-                <article>
-                    <h3>Where we started. Where we are headed...</h3>
-                    <p>Make time your ally, make puntuality the difference...</p>
+                <article class="storyArticleOne">
+                    <h3>WHERE WE STARTED- WHERE WE ARE HEADED...</h3>
+                    <h4>Make time your ally, make puntuality the difference...</h4>
                     <p>Our mission is to allow workers all over the world to reach their full potential.Our goal is to bring more power to start-ups through top-notch and user-friendly time-tracking web apps, easily accessible through any device.We believe in integrity, honesty, passion for our client’s ideas and communication.</p>
                 </article>
     
-                <article>
-                    <h3>Hear what they say about us...</h3>
-                    <p>“TrackGenix allows us to effortlessly and easily track total workflow in each of our projects and make a balanced distribution of team workload”</p>
-                    <p>- Sattisfied Client</p>
+                <article class="storyArticleTwo">
+                    <h3>HEAR WHAT THEY SAY ABOUT US...</h3>
+                    <div>
+                        <p>“TrackGenix allows us to effortlessly and easily track total workflow in each of our projects and make a balanced distribution of team workload”</p>
+                        <h4>- Sattisfied Client</h4>
+                    </div>
                 </article>
     
-                <article>
+                <article class="storyArticleThree">
                     <h3>About Us</h3>
                     <p>RadiumRocket developed TrackGenix as a software solution for optimal time-tracking and project management as a request for one of its most trusted clients, GigaTech Software Solutions, in late 2021, and swiftly became one of the most requested services in all of the million-dollar South American productivity industry.</p>
                     <p>RadiumRocket are a group of passionate people fond of the latest cutting edge technologies in software development. They position ourselves at your side through all the process of development being responsible and co-workers with you to successfully get your product moving.</p>
