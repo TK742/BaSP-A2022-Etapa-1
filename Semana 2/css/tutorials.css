@@ -1,0 +1,108 @@
+#support h2
+{
+    width: 147px;
+    height: 27px;
+    margin-left: 94px;
+    margin-top: 256px;
+    margin-bottom: 49px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #000000;
+}
+
+#support article
+{
+    margin-left: 64px;
+    margin-right: 64px;
+    display: inline-block;
+    height: 368px;
+    width: 499px;
+}
+
+#support p
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+#tutorials h2
+{
+    width: 147px;
+    height: 27px;
+    margin-left: 94px;
+    margin-top: 74px;
+    margin-bottom: 49px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #000000;
+}
+
+#tutorials li
+{
+    display: inline-block;
+    width: 1000px;
+    margin-left: 105px;
+}
+
+.videoTitle
+{
+    display: inline-block;
+    width: 70%;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    color: #000;
+    text-align: start;
+}
+
+.timeStamp
+{
+    position: relative;
+    width: 30%;
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #1D22EC;
+    text-align: end;
+}
+
+#tutorials button
+{
+    width: 480px;
+    height: 116px;
+    margin-left: 389px;
+    margin-top: 102px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+
+    background: #98220D;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}

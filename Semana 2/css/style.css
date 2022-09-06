@@ -17,3 +17,31 @@ footer
     padding-top: 155px;
     padding-left: 253px;
 }
+
+footer nav ul
+{
+    padding-top: 13px;
+    padding-left: 413px;
+    width: 846px;
+    height: 74px;
+    background: #373867;
+    margin-bottom: 96px;
+}
+
+footer nav ul li
+{
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+footer p
+{
+    margin-top: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}

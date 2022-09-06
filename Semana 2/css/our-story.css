@@ -15,7 +15,7 @@
     display: inline-block;
 }
 
-#story img
+.icon
 {
     display: inline-block;
     width: 112px;
@@ -96,9 +96,25 @@
     color: rgba(0, 0, 0, 0.8);
 }
 
-#storyArticleThree img
+.storyArticleThree img
 {
-    box-sizing: border-box;
+    margin-left: 44px;
     width: 363px;
     height: 251px;
+    display: inline-block;
+}
+
+.storyArticleThree p
+{
+    display: inline-block;
+    width: 729px;
+    height: 280px;
+    margin-top: 40px;
+    margin-left: 49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #373867;
 }
