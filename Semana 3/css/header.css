@@ -1,0 +1,39 @@
+header 
+{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#headerTop
+{
+    height: 91px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #373867;
+}
+
+#headerBottom
+{
+    display: none;
+}
+
+#headerTop img
+{
+    width: 43px;
+}
+
+.logoIcon
+{
+    width: 64px;
+}
+
+#headerTop h1
+{
+    width: 183px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #46A07B;
+}

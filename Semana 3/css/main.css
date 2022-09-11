@@ -1,0 +1,146 @@
+main
+{
+    margin-top: 91px;
+    width: clamp(390px, 100%, 1259px);
+}
+
+#home
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#home div
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+#home .welcome-part
+{
+    padding: clamp(0rem, 50%, 1rem);
+}
+
+#home p
+{
+    margin: 0 auto;
+    width: clamp(324px, 50%, 470px);
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #373867;
+}
+
+#home img
+{
+    width: clamp(256px, 50%, 500px);
+    margin: 0 auto;
+}
+
+#home h2
+{
+    box-sizing: border-box;
+    width: 241px;
+    height: 64px;
+    background: rgba(170, 206, 155, 0.53);
+    border: 1.5px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #373867;
+    padding: 10px;
+    margin-top: 27px;
+}
+
+
+.feature-row
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.features-product
+{
+    width: clamp(100px, calc(50% - 5rem), 240px);
+}
+
+.features-product h3
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #373867;
+    padding: 1rem;
+}
+
+.features-product img
+{
+    width: 100%;
+}
+
+.why-us-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-us-reason
+{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: clamp(357px, 50%, 553px);
+    margin: 2rem;
+}
+
+.why-us-reason img
+{
+    width: clamp(120px, 30%, 182px);
+    height: clamp(120px, 30%, 182px);
+    align-self: center;
+}
+
+.why-us-reason div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: clamp(200px, 70%, 300px);
+}
+
+.why-us-reason h3
+{
+    font-weight: 700;
+    font-size: 18.7501px;
+    line-height: 22px;
+    text-align: center;
+    color: #373867;
+}
+
+.why-us-reason p
+{
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 15px;
+    color: #373867;
+}
+

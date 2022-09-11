@@ -1,0 +1,21 @@
+html
+{
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+h2
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #373867;
+    text-align: center;
+    margin: 60px auto;
+}
