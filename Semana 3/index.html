@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/aside.css">
+        <link rel="stylesheet" href="css/main.css">
         <title>TrackGenix</title>
     </head>
     
@@ -133,16 +133,13 @@
                 <form action="">
                     <input type="text" name="fname" id="fname" placeholder="Name">
                     <input type="text" name="email" id="email" placeholder="Email">
-    
                     <select name="contactArea" id="contactArea">
                         <option value="none">- Contact Area -</option>
                         <option value="hhrr">HHRR</option>
                         <option value="it">IT</option>
                         <option value="marketing">Marketing</option>
                     </select>
-    
                     <textarea id="message" name="message" rows="4" cols="50" placeholder="Message..."></textarea>
-    
                     <label class="switch"><input type="checkbox"><span class="slider round">Send copy to myself</span></label>
                     <label class="switch"><input type="checkbox"><span class="slider round">I am Human and I agree to T&C</span></label>   
                 </form>
@@ -150,123 +147,135 @@
             
             <section id="story">
                 <h2>Our Story</h2>
-                <img src="res/rr-logo.png" alt="rr-logo" class="icon">
-    
-                <article class="storyArticleOne">
-                    <h3>WHERE WE STARTED- WHERE WE ARE HEADED...</h3>
-                    <h4>Make time your ally, make puntuality the difference...</h4>
-                    <p>Our mission is to allow workers all over the world to reach their full potential.Our goal is to bring more power to start-ups through top-notch and user-friendly time-tracking web apps, easily accessible through any device.We believe in integrity, honesty, passion for our client’s ideas and communication.</p>
-                </article>
-    
-                <article class="storyArticleTwo">
-                    <h3>HEAR WHAT THEY SAY ABOUT US...</h3>
-                    <div>
-                        <p>“TrackGenix allows us to effortlessly and easily track total workflow in each of our projects and make a balanced distribution of team workload”</p>
-                        <h4>- Sattisfied Client</h4>
-                    </div>
-                </article>
-    
-                <article class="storyArticleThree">
-                    <h3>About Us</h3>
-                    <p>RadiumRocket developed TrackGenix as a software solution for optimal time-tracking and project management as a request for one of its most trusted clients, GigaTech Software Solutions, in late 2021, and swiftly became one of the most requested services in all of the million-dollar South American productivity industry.
-                    RadiumRocket are a group of passionate people fond of the latest cutting edge technologies in software development. They position ourselves at your side through all the process of development being responsible and co-workers with you to successfully get your product moving.</p>
-                    <img src="res/security.jpg" alt="security-button">
-                </article>
+                
+                <div class="story-container">
+                    <article class="story-one">
+                        <div>
+                            <h3>WHERE WE STARTED- WHERE WE ARE HEADED...</h3>
+                            <img src="res/rr-logo.png" alt="rr-logo">
+                        </div>
+                        <h4>Make time your ally, make puntuality the difference...</h4>
+                        <p>Our mission is to allow workers all over the world to reach their full potential.Our goal is to bring more power to start-ups through top-notch and user-friendly time-tracking web apps, easily accessible through any device.We believe in integrity, honesty, passion for our client’s ideas and communication.</p>
+                    </article>
+        
+                    <article class="story-two">
+                        <h3>HEAR WHAT THEY SAY ABOUT US...</h3>
+                        <div>
+                            <p>“TrackGenix allows us to effortlessly and easily track total workflow in each of our projects and make a balanced distribution of team workload”</p>
+                            <h4>- Sattisfied Client</h4>
+                        </div>
+                    </article>
+        
+                    <article class="story-three">
+                        <h3>About Us</h3>
+                        <div>
+                            <p class="welcome-part">RadiumRocket developed TrackGenix as a software solution for optimal time-tracking and project management as a request for one of its most trusted clients, GigaTech Software Solutions, in late 2021, and swiftly became one of the most requested services in all of the million-dollar South American productivity industry.
+                                RadiumRocket are a group of passionate people fond of the latest cutting edge technologies in software development. They position ourselves at your side through all the process of development being responsible and co-workers with you to successfully get your product moving.</p>
+                            <img src="res/security.jpg" alt="security-button" class="welcome-part">
+                        </div>
+                    </article>
+                </div>
             </section>
             
             <section id="products">
                 <h2>Our Products</h2>
-                <article>
-                    <img src="res/prodA.png" alt="device-cycle">
-                    <div>
-                        <h3>Employee time control from any place and device</h3>
-                        <p>A single app for ecording the day for any situation:</p>
-                        <ul>
-                            <li>Web</li>
-                            <li>Mobile app</li>
-                            <li>Kiosk with tablet</li>
-                            <li>Biometric recognition devices</li>
-                        </ul>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="res/prodB.png" alt="menu-with-buttons">
-                    <div>
-                        <h3>Customized working day registration policies</h3>
-                        <p>Customize the mandatory registration of the working day with a completely flexible app to clock in at work. Apply more restrictive measures:</p>
-                        <ul>
-                            <li>Expected transfer in one click</li>
-                            <li>Weekly massive trasnfer</li>
-                            <li>Flexible entry and exit</li>
-                        </ul>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="res/prodC.png" alt="phone-app-comparison">
-                    <div>
-                        <h3>The most intuitive time control app</h3>
-                        <p>Registration of the day from anywhere to promote teleworking and self-management of time</p>
-                        <ul>
-                            <li>24 hour access from anywhere</li>
-                            <li>Geolocated transfer detection system</li>
-                            <li>Instant notifications and alerts</li>
-                        </ul>
-                    </div>
-                </article>
-    
-                <article>
-                    <img src="res/prodD.png" alt="user-list">
-                    <div>
-                        <h3>Project Management Done Well</h3>
-                        <p>Advanced controls and features to effortlessly controll all your projects</p>
-                        <ul>
-                            <li>Browse between different projects</li>
-                            <li>Equipped with graphs and tables</li>
-                        </ul>
-                    </div>
-                </article>
+                <div class="products-container">
+                    <article>
+                        <img src="res/prodA.png" alt="device-cycle">
+                        <div>
+                            <h3>Employee time control from any place and device</h3>
+                            <p>A single app for ecording the day for any situation:</p>
+                            <ul>
+                                <li>Web</li>
+                                <li>Mobile app</li>
+                                <li>Kiosk with tablet</li>
+                                <li>Biometric recognition devices</li>
+                            </ul>
+                        </div>
+                    </article>
+        
+                    <article>
+                        <img src="res/prodB.png" alt="menu-with-buttons">
+                        <div>
+                            <h3>Customized working day registration policies</h3>
+                            <p>Customize the mandatory registration of the working day with a completely flexible app to clock in at work. Apply more restrictive measures:</p>
+                            <ul>
+                                <li>Expected transfer in one click</li>
+                                <li>Weekly massive trasnfer</li>
+                                <li>Flexible entry and exit</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="res/prodC.png" alt="phone-app-comparison">
+                        <div>
+                            <h3>The most intuitive time control app</h3>
+                            <p>Registration of the day from anywhere to promote teleworking and self-management of time</p>
+                            <ul>
+                                <li>24 hour access from anywhere</li>
+                                <li>Geolocated transfer detection system</li>
+                                <li>Instant notifications and alerts</li>
+                            </ul>
+                        </div>
+                    </article>
+        
+                    <article>
+                        <img src="res/prodD.png" alt="user-list">
+                        <div>
+                            <h3>Project Management Done Well</h3>
+                            <p>Advanced controls and features to effortlessly controll all your projects</p>
+                            <ul>
+                                <li>Browse between different projects</li>
+                                <li>Equipped with graphs and tables</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
             </section>
     
             <section id="about-us">
                 <h2>About Us</h2>
-                <article class="imageAndText">
-                    <img src="res/buildings.jpg" alt="glas-buildings">
-                    <div>
-                        <h3>GigaTech Software Solutions SA building.</h3>
-                        <p>Trackgenix is ​​a HR software company that streamlines human resource management for clients in more than 1,200 cities around the world.</p>
-                    </div>
-                </article>
-                
-                <article class="imageAndText">
-                    <div>
-                        <h3>An inclusive workplace for everyone</h3>
-                        <p>Get to know our team and our offices and join us in our leap towards better human resources management. Learn how companies from all sectors already manage talent in a more efficient and humane way with our human resources software.</p>
-                    </div>
-                    <img src="res/meeting.jpg" alt="meeting-with-people">
-                </article>
-                
-                <article class="imageAndText">
-                    <img src="res/building.jpg" alt="large-building">
-                    <div>
-                        <h3>Our workplace, our world</h3>
-                        <p>Trackgenix was created remotely in 2008 by Yves Hiernaux and Mic Cvilic after many years of working with hard-to-manage and even harder-to-understand reports and timesheets. Although we have grown, we continue with the same goal of offering a flexible, reliable and easy-to-use time control tool.</p>
-                    </div>
-                </article>
+                <div class="article-containers">
+                    <article class="image-text">
+                        <img src="res/buildings.jpg" alt="glas-buildings">
+                        <div>
+                            <h3>GigaTech Software Solutions SA building.</h3>
+                            <p>Trackgenix is ​​a HR software company that streamlines human resource management for clients in more than 1,200 cities around the world.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="image-text">
+                        <div>
+                            <h3>An inclusive workplace for everyone</h3>
+                            <p>Get to know our team and our offices and join us in our leap towards better human resources management. Learn how companies from all sectors already manage talent in a more efficient and humane way with our human resources software.</p>
+                        </div>
+                        <img src="res/meeting.jpg" alt="meeting-with-people">
+                    </article>
+                    
+                    <article class="image-text">
+                        <img src="res/building.jpg" alt="large-building">
+                        <div>
+                            <h3>Our workplace, our world</h3>
+                            <p>Trackgenix was created remotely in 2008 by Yves Hiernaux and Mic Cvilic after many years of working with hard-to-manage and even harder-to-understand reports and timesheets. Although we have grown, we continue with the same goal of offering a flexible, reliable and easy-to-use time control tool.</p>
+                        </div>
+                    </article>
+                </div>
             </section>
             
             <section id="support">
                 <h2>Support</h2>
-                <article>
-                    <img src="res/call-center.jpg" alt="call-center">
-                    <p>Phone call or Video conference support from 8am to 4pm everyday</p>
-                </article>
-    
-                <article>
-                    <img src="res/support-button.jpg" alt="support-button">
-                    <p>24h support by online chat-bot</p>
-                </article>
+                <div>
+                    <article>
+                        <img src="res/call-center.jpg" alt="call-center">
+                        <p>Phone call or Video conference support from 8am to 4pm everyday</p>
+                    </article>
+        
+                    <article>
+                        <img src="res/support-button.jpg" alt="support-button">
+                        <p>24h support by online chat-bot</p>
+                    </article>
+                </div>
             </section>
     
             <section id="tutorials">

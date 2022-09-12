@@ -17,6 +17,37 @@ header
 #headerBottom
 {
     display: none;
+    height: 55px;
+    margin-left: 253px;
+    background: #373867;
+}
+
+#headerBottom nav ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.headerButton
+{
+    box-sizing: border-box;
+    width: clamp(100px, 100%, 210px);
+    background: #373867;
+    border: 1px solid black;
+}
+
+.headerButton li a
+{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #479679;
+}
+
+.headerButton li
+{
+    height: 55px;
 }
 
 #headerTop img

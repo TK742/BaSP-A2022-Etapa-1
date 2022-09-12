@@ -11,11 +11,11 @@ main
     flex-direction: column;
 }
 
-
-#home div
+#home div, .story-three div
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    align-items: center;
     padding: 2rem;
 }
 
@@ -24,7 +24,7 @@ main
     padding: clamp(0rem, 50%, 1rem);
 }
 
-#home p
+#home p, .story-three p
 {
     margin: 0 auto;
     width: clamp(324px, 50%, 470px);
@@ -33,8 +33,6 @@ main
     font-size: 20px;
     line-height: 100%;
     
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
     color: #373867;
@@ -42,7 +40,7 @@ main
 
 #home img
 {
-    width: clamp(256px, 50%, 500px);
+    width: clamp(256px, 50%, 512px);
     margin: 0 auto;
 }
 
@@ -62,7 +60,6 @@ main
     padding: 10px;
     margin-top: 27px;
 }
-
 
 .feature-row
 {
@@ -112,8 +109,8 @@ main
 
 .why-us-reason img
 {
-    width: clamp(120px, 30%, 182px);
-    height: clamp(120px, 30%, 182px);
+    width: clamp(120px, 40%, 182px);
+    height: clamp(120px, 40%, 182px);
     align-self: center;
 }
 
@@ -132,7 +129,6 @@ main
     font-weight: 700;
     font-size: 18.7501px;
     line-height: 22px;
-    text-align: center;
     color: #373867;
 }
 
@@ -144,3 +140,335 @@ main
     color: #373867;
 }
 
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fname, #email, #contactArea
+{
+    height: 37px;
+    margin: 1rem;
+}
+
+#fname, #email
+{
+    width: clamp(323px, calc(100% - 2.5rem), 554px);
+}
+
+#contactArea, #message
+{
+    width: calc(100% - 2rem);
+}
+
+#message
+{
+    height: 296px;
+}
+
+.switch
+{
+    margin: 1rem auto;
+}
+
+#fname::placeholder, #email::placeholder, #contactArea::placeholder
+{
+    padding-left: 1rem;
+    color: #373867;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.story-container, .story-two div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#story h3
+{
+    margin: 2rem;
+    width: clamp(260px, calc(80% - 2rem), 757px);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #373867;
+}
+
+.story-one div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.story-one img
+{
+    width: 98px;
+    height: 110px;
+}
+
+.story-one h4
+{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 67px;
+    text-align: center;
+    color: #151515;
+    margin: 0 auto;
+    width: clamp(390px, 50%, 618px);
+}
+
+.story-one p, .store-two p
+{
+    width: clamp(350px, calc(100% - 5rem), 1209px);
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 26px;
+    text-align: center;
+    color: #1C1C37;
+}
+
+.story-two div
+{
+    background: rgba(217, 217, 217, 0.2);
+    box-shadow: 0px 4px 0.5px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    padding: 2.5rem;
+}
+
+.story-two h4
+{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15.5px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    align-self: flex-end;
+    padding-top: 2rem;
+}
+
+.story-three div
+{
+    flex-wrap: wrap;
+}
+
+.story-three img
+{
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: clamp(296px, 50%, 363px);
+}
+
+.story-three p
+{
+    width: clamp(359px, calc(100% - 2rem), 769px);
+}
+
+.products-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#products article
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 330px;
+    max-width: 384px;
+    margin: 1rem auto;
+    padding: 1.5rem 3rem;
+}
+
+#products h3
+{
+    font-weight: 700;
+    font-size: 24.4762px;
+    line-height: 30px;
+}
+
+#products p
+{
+    font-weight: 400;
+    font-size: 19.581px;
+    line-height: 24px;
+    margin: 1rem 0;
+}
+
+#products li
+{
+    margin-left: 80px;
+    list-style-type: disc;
+}
+
+#about-us .article-containers
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-text
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.image-text div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#about-us .article-containers
+{
+    display: flex;
+}
+
+#support div
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#support div article
+{
+    margin: 2rem;
+    width: clamp(300px, 50%, 500px);
+}
+
+#support div img
+{
+    width: clamp(300px, 100%, 500px);
+}
+
+#support div p
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+#tutorials
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#tutorials ol
+{
+    list-style: decimal;
+}
+
+#tutorials li
+{
+    display: list-item;
+    width: calc(100% - 2rem);
+    margin: 2rem;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    text-align: start;
+}
+
+.videoTitle
+{
+    display: inline-block;
+    width: 80%;
+}
+
+.timeStamp
+{
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #1D22EC;
+    text-align: end;
+}
+
+#tutorials button
+{
+    width: clamp(340px, calc(100% - 2rem), 480px);
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+
+    background: #98220D;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+footer
+{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+footer nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 74px;
+    background: #373867;
+    margin-bottom: 44px;
+}
+
+footer p
+{
+    margin-top: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+@media only screen and (min-width: 834px) 
+{
+    aside, #headerBottom
+    {
+        display: block;
+    }
+
+    main, footer
+    {
+        margin-left: 253px;
+        margin-top: 147px;
+        width: calc(100% - 253px);
+    }
+}
