@@ -18,7 +18,7 @@ This week's objective is to add style to the HTML create before. You can find th
 ### Week 3
 
 In this week, we must refactor the CSS. This time, using flexbox.
-
-Link to website: https://tk742.github.io/BaSP-A2022-Etapa-1/Semana%203/index.html
+Used reference width (mobile: 390px, pc: 1512px).
+Go to [GitHub Page](https://tk742.github.io/BaSP-A2022-Etapa-1/Semana%203/index.html).
 
 Thanks for reading!
