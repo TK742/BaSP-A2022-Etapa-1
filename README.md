@@ -19,4 +19,6 @@ This week's objective is to add style to the HTML create before. You can find th
 
 In this week, we must refactor the CSS. This time, using flexbox.
 
+Link to website: https://tk742.github.io/BaSP-A2022-Etapa-1/Semana%203/index.html
+
 Thanks for reading!
