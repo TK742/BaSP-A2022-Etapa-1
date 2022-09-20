@@ -2,4 +2,10 @@ var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "A
 console.log(months[5]);
 console.log(months[11]);
 
-console.log(months.sort());
+var unsortedMonths = [...months];
+var sortedMonths = unsortedMonths.sort();
+console.log(sortedMonths);
+
+months.unshift("Jupiter");
+months.push("Saturno");
+console.log(months);
