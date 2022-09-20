@@ -19,3 +19,6 @@ console.log(backwardsMonths.reverse());
 
 var allMonths = months.join('-');
 console.log(allMonths);
+
+var slicedMonths = months.slice(4, 11);
+console.log(slicedMonths);
