@@ -13,3 +13,6 @@ console.log(months);
 months.shift();
 months.pop();
 console.log(months);
+
+months.reverse();
+console.log(months);
