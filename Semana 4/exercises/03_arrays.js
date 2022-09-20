@@ -14,5 +14,8 @@ months.shift();
 months.pop();
 console.log(months);
 
-months.reverse();
-console.log(months);
+var backwardsMonths = [...months];
+console.log(backwardsMonths.reverse());
+
+var allMonths = months.join('-');
+console.log(allMonths);
