@@ -9,3 +9,7 @@ console.log(sortedMonths);
 months.unshift("Jupiter");
 months.push("Saturno");
 console.log(months);
+
+months.shift();
+months.pop();
+console.log(months);
