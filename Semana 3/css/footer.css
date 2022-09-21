@@ -1,0 +1,27 @@
+footer
+{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+footer nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 74px;
+    background: #373867;
+    margin-bottom: 44px;
+}
+
+footer p
+{
+    margin-top: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
